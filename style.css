@@ -1,0 +1,119 @@
+body, h1, h2, p, ul, table {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #7a7878;
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.circular-effect{
+  width: 800px;
+  height: 800px;
+  background-color: rgb(255, 217, 0);
+  clip-path: circle(20% at 0 0);
+  transition: all 2s ease;
+  
+}
+.circular-effect:hover{
+  clip-path: circle(100%);
+}
+section {
+  background-color: #fff;
+  max-width: 800px;
+  height: 20cm;
+  margin: 20px auto;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container{
+position: relative;
+top: -750px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.email, .linkedin, .github, .phone {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.email i, .linkedin i, .github i, .phone i {
+  margin-right: 7px;
+}
+.bar{
+  display: flex;
+  background-color: rgb(30, 30, 85);
+  color: rgb(255, 217, 0);
+  padding: 5px;
+  align-items: center;
+ 
+}
+
+.objective {
+  margin-bottom: 20px;
+}
+
+.objective h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.education {
+  margin-bottom: 20px;
+}
+
+.education table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.education th, .education td {
+  border: 1px solid #1a1a1a;
+  padding: 8px;
+  text-align: left;
+}
+
+
+.skills {
+  margin-bottom: 20px;
+}
+
+.skills h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills li {
+  margin-bottom: 5px;
+}
+
+
+.activities {
+  margin-bottom: 20px;
+}
+
+.activities h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
